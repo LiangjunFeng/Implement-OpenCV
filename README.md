@@ -12,7 +12,7 @@ It's a application of `DFT` and `IDFT`. Firstly, I trnsfer the picture from time
 
 by `DFT`, And In frequency domain, process all the pixels,lastly,tansfer the picture back to time domain
 
-by `IDFE`. the original picture I use is the moive,[lalaland 's advertisement](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DftAndIdft/lalaland_1.jpeg) 
+by `IDFE`. the original picture I use is the moive,[lalaland 's advertisement](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DftAndIdft/lalaland_2.jpg) 
 
 the reslut, source image:
 
