@@ -18,31 +18,31 @@ void FrequencyProcess(Mat matName[]);
 //-----------------------------------------------------------------------------------------------------
 int main(int argc,char *argv[]){
 
- 	  //load the picture in gray-scale mode
-  	Mat srcImage = imread("/Users/zhuxiaoxiansheng/Desktop/lalaland_2.jpg",0);
-	  resize(srcImage,srcImage,Size(1000*1.5,640*1.5));
+    //load the picture in gray-scale mode
+    Mat srcImage = imread("/Users/zhuxiaoxiansheng/Desktop/lalaland_2.jpg",0);
+    resize(srcImage,srcImage,Size(1000*1.5,640*1.5));
+   
+    //show the original picture
+    imshow("Source Image",srcImage); 
+    waitKey();
 
-	  //show the original picture
-    imshow("Source Image",srcImage);
-	  waitKey();
+    //expend the picture to the optimal size,the border filled with 0
+    int m = getOptimalDFTSize(srcImage.rows);
+    int n = getOptimalDFTSize(srcImage.cols);
+    Mat padded;
+    copyMakeBorder(srcImage,padded,0,m-srcImage.rows,0,n-srcImage.cols,BORDER_CONSTANT,Scalar::all(0));
 
-	  //expend the picture to the optimal size,the border filled with 0
-	  int m = getOptimalDFTSize(srcImage.rows);
-	  int n = getOptimalDFTSize(srcImage.cols);
-	  Mat padded;
-	  copyMakeBorder(srcImage,padded,0,m-srcImage.rows,0,n-srcImage.cols,BORDER_CONSTANT,Scalar::all(0));
+    //create space for the DFT's result
+    //meanwhile combine the planes array to one array
+    Mat planes[] = {Mat_<float>(padded),Mat::zeros(padded.size(),CV_32F)};
+    Mat complexI;
+    merge(planes,2,complexI);
+    
+    //using DFT in-place
+    dft(complexI,complexI);
 
-	  //create space for the DFT's result
-	  //meanwhile combine the planes array to one array
-	  Mat planes[] = {Mat_<float>(padded),Mat::zeros(padded.size(),CV_32F)};
-	  Mat complexI;
-	  merge(planes,2,complexI);
-
-	  //using DFT in-place
-	  dft(complexI,complexI);
-
-	  //figure out the magnitude according to the complex number
-	  split(complexI,planes);
+    //figure out the magnitude according to the complex number
+    split(complexI,planes);
     magnitude(planes[0],planes[1],planes[0]);
     Mat magnitudeImage = planes[0];
 
@@ -50,7 +50,7 @@ int main(int argc,char *argv[]){
     magnitudeImage += Scalar::all(1);
     log(magnitudeImage,magnitudeImage);
 
-    //centralization and normalize the magnitude spectrum
+    //centralization and normalize the magnitude spectru
     //show the image in frequency domain
     Centralization(magnitudeImage);
     normalize(magnitudeImage,magnitudeImage,0,1,NORM_MINMAX);
