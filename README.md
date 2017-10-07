@@ -40,3 +40,16 @@ the result, Pro Amplitude spectrum:
   
   ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DftAndIdft/Pro%20Amplitude%20spectrum.png) 
   
+ 
+ 
+ # CONTRIBUTOR
+--------------
+-----------------------------------------------------------------------
+                                        CANTACT CARD
+                               Author:     LiangjunFeng
+                               Blog:       http://my.csdn.net/Liangjun_Feng
+                               E-mail:     zhumavip@163.com
+                               School:     zhejiang University
+                               Begin from: 2017/8
+-----------------------------------------------------------------------
+  
