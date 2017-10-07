@@ -8,7 +8,7 @@ improve my code,There are more information about the OpenCV on my [CSDN BLOG](ht
 # INTRODUCTION
 
 ## 1.DftAndIdft.cpp
-It's a application or `DFT` and `IDFT`. Firstly, I trnsfer the picture from time domain to frequency domain
+It's a application of `DFT` and `IDFT`. Firstly, I trnsfer the picture from time domain to frequency domain
 
 by `DFT`, And In frequency domain, process all the pixels,lastly,tansfer the picture back to time domain
 
