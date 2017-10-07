@@ -43,7 +43,7 @@ the result, Pro Amplitude spectrum:
  
  
  # CONTRIBUTOR
---------------
+
 -----------------------------------------------------------------------
                                         CANTACT CARD
                                Author:     LiangjunFeng
