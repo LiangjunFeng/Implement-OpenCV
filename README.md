@@ -41,6 +41,35 @@ the result, Pro Amplitude spectrum:
   ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DftAndIdft/Pro%20Amplitude%20spectrum.png) 
   
  
+ ## 1.LinearAndNonLinearFilter.cpp
+ the cpp file contains three normal `linear Filteres` and two `nonlinear Filteres` ,They are Box Filter\Mean Filter\
+ 
+ GaussianFilter\Median Filter and Bilateral Filter，and meanwhile, I creat Track bar for each of them,we could move the 
+ 
+ key to adjust the Filteres' function,the filteres are applied in one picture,[another lalaland advertisement](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/lalaland_1.jpeg),so we could 
+ 
+ compare their function
+ 
+ the result, Mean Filter:
+ 
+ ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/Median.png)
+ 
+ the result, Gaussian Filter:
+ 
+ ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/Gaussian.png)
+ 
+ the result, Box Filter:
+ 
+ ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/BoxFilter.png)
+ 
+ the result, Median Filter:
+ 
+ ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/Median.png)
+ 
+ the result,Bilateral Filter:
+ 
+ ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/Bilateral.png)
+ 
  
  # CONTRIBUTOR
 
