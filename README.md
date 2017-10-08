@@ -70,6 +70,18 @@ the result, Pro Amplitude spectrum:
  
  ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/LinearAndNonlinearFilter/Bilateral.png)
  
+ ## 3.DrawConvexHull
+ the code `draw the Convex Hull` of the ['xiaoxin'](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DrawConvexHull/xiaoxin.jpg),I like the cartoon very much, so, I make the result a gif.
+ 
+the code is easy but efficient, it's still welcome to help me improve it, and you could also add some interesting 
+
+elements to it,the code uses convexHull function and findContour function mainly.
+
+the resalut:
+
+
+ 
+ 
  
  # CONTRIBUTOR
 
