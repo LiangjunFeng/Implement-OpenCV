@@ -41,7 +41,7 @@ the result, Pro Amplitude spectrum:
   ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DftAndIdft/Pro%20Amplitude%20spectrum.png) 
   
  
- ## 1.LinearAndNonLinearFilter.cpp
+ ## 2.LinearAndNonLinearFilter.cpp
  the cpp file contains three normal `linear Filteres` and two `nonlinear Filteres` ,They are Box Filter\Mean Filter\
  
  GaussianFilter\Median Filter and Bilateral Filter，and meanwhile, I creat Track bar for each of them,we could move the 
