@@ -79,7 +79,7 @@ elements to it,the code uses convexHull function and findContour function mainly
 
 the resalut:
 
-
+![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DrawConvexHull/xiaoxin.gif)
  
  
  
