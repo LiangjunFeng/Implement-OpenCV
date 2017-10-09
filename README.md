@@ -14,6 +14,8 @@ by `DFT`, And In frequency domain, process all the pixels,lastly,tansfer the pic
 
 by `IDFE`. the original picture I use is the moive,[lalaland 's advertisement](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DftAndIdft/lalaland_2.jpg) 
 
+There are more details in :  [detail document about the algorithms](http://blog.csdn.net/baimafujinji/article/details/51724371)
+
 the reslut, source image:
 
   
