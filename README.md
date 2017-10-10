@@ -122,6 +122,15 @@ and really, the function has a good effect
 the result,HurrisCorner:
 
 ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/HurrisCorner/harricorner.png)
+
+## 7.CircleAndRectObj
+The code could use circles and rectangles to wraps the obejects' contours in the ["world map"](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/HurrisCorner/map_1.png),I use the findcontour and 
+
+some other functions in the OpenCV
+
+the result,CircleAndRectObj:
+
+![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/HurrisCorner/map.gif)
  
  # CONTRIBUTOR
 
