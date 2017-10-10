@@ -130,7 +130,7 @@ some other functions in the OpenCV
 
 the result,CircleAndRectObj:
 
-![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/HurrisCorner/map.gif)
+![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/CircleAndRectObej/map.gif)
  
  # CONTRIBUTOR
 
