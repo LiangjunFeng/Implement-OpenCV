@@ -128,7 +128,7 @@ if __name__ == '__main__':
     length,bordth = image.shape
     imageSalty,virtualSalty,comp = addSaltyNoise(image,5000)
     data = transferToMatrix(imageSalty,virtualSalty,length,bordth)
-    data = (eigOrth(data)*image.shape[0])
+    data = eigOrth(data)
     W = getRandomW(data.shape[0])
     W = (eigOrth(W)*image.shape[0])
 
