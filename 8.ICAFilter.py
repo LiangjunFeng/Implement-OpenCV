@@ -130,7 +130,7 @@ if __name__ == '__main__':
     data = transferToMatrix(imageSalty,virtualSalty,length,bordth)
     data = eigOrth(data)
     W = getRandomW(data.shape[0])
-    W = (eigOrth(W)*image.shape[0])
+    W = eigOrth(W)
 
 
 #Figure out W using Newton's method
