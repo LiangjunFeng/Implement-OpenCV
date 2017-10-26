@@ -131,6 +131,16 @@ some other functions in the OpenCV
 the result,CircleAndRectObj:
 
 ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/CircleAndRectObej/map.gif)
+
+## 8.ICAFilter.py
+I use ICA to filt the noise of ["Lena"]()'s picture , and it has a pretty good effect,the input are two pictues ,one is "Lena" with noise,one is pure noise picture,and the ICA splits much noise form "Lena".Besides,I compare the reult with other filters efffect such as "GaussionFilter" \ "median Filter"\. And obviusly, the ICA's reslut is much more better
+
+you could fun much nore details from here : [detail document about the algorithms]()
+
+the result,reult of ICAFilter is the up median one:
+
+![]()
+
  
  # CONTRIBUTOR
 
