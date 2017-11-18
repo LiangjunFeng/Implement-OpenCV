@@ -79,6 +79,8 @@ the code is easy but efficient, it's still welcome to help me improve it, and yo
 
 elements to it,the code uses convexHull function and findContour function mainly.
 
+There are more details in : [detail document about the algorithms](http://blog.csdn.net/Liangjun_Feng/article/details/78572052)
+
 the resalut:
 
 ![](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/DrawConvexHull/xiaoxin.gif)
