@@ -86,9 +86,9 @@ the resalut:
  ## 4.EdgeDetected
 Here contains Three different kinds of methods for `edge detected`,They are `Canny/Sobel/Scharr`,the pictue I use 
 
-is [Two Horses's picture](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/EdgeDetected/horse.jpg) that I download from Baidu,Put the different effect results here to compare the differences between 
+is [Two Horses's picture](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/EdgeDetected/horse.jpg) that I download from Baidu,Put the different effect results here to compare the differences between them
 
-them,and thre are more details about the code in the [document](http://blog.csdn.net/Liangjun_Feng/article/details/78571227)
+There are more details in : [detail document about the algorithms](http://blog.csdn.net/Liangjun_Feng/article/details/78571227)
 
 the result, Canny:
 
