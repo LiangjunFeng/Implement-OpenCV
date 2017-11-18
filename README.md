@@ -88,7 +88,7 @@ Here contains Three different kinds of methods for `edge detected`,They are `Can
 
 is [Two Horses's picture](https://github.com/LiangjunFeng/Implement-OpenCV/blob/master/Picture/EdgeDetected/horse.jpg) that I download from Baidu,Put the different effect results here to compare the differences between 
 
-them
+them,and thre are more details about the code in the [document](http://blog.csdn.net/Liangjun_Feng/article/details/78571227)
 
 the result, Canny:
 
